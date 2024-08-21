@@ -1,0 +1,37 @@
+/* css para a imagem da logo no header */
+header img {
+  height: 100px; /* Ajusta a altura da logo */
+  margin-right: 100px; /* Espaçamento entre a logo e os itens de navegação */
+  display: block; /* Remove o espaço extra abaixo da imagem */
+  width: auto; /* Mantém a proporção da imagem */
+}
+
+/* css personalizado para a barra de navegação */
+.navbar {
+  padding: 10px 0; /* Espaçamento superior e inferior da navbar */
+  display: flex;
+  align-items: center; /* Alinha verticalmente a logo e os itens de navegação */
+}
+
+/* css para os links de navegação */
+
+/* css para os links de navegação */
+.navbar-nav .nav-link {
+  font-size: 1.5rem; /* Aumenta o tamanho da fonte dos links */
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; /* Deixa o texto em negrito */
+  padding: 10px 20px; /* Ajusta o espaço ao redor dos links */
+  color: var(--white); /* Define a cor branca para os links */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transição suave para a cor e o tamanho */
+  display: inline-block; /* Garante que o padding extra não afete o layout */
+  box-sizing: border-box; /* Inclui padding e borda no tamanho total do elemento */
+  line-height: 1; /* Ajusta a altura da linha para evitar espaçamento extra */
+  overflow: hidden; /* Garante que nenhum conteúdo extra seja exibido fora dos limites */
+}
+
+/* css para os links quando o mouse passa sobre eles */
+.nav-link:hover {
+  transform: scale(1.1); /* Aumenta o tamanho do link no hover sem afetar o layout */
+  color: var(--white); /* Cor do link no hover */
+  text-decoration: none; /* Remove o sublinhado no hover */
+}

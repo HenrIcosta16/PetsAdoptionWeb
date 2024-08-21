@@ -1,0 +1,27 @@
+.carousel-caption {
+  position: absolute;
+  bottom: 20px; /* Ajusta a distância do texto para baixo */
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px; /* Adiciona espaço extra ao redor do texto */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor leitura */
+  border-radius: 10px;
+  text-align: center; /* Centraliza o texto dentro da legenda */
+}
+
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    bottom: 10px; /* Ajusta a distância do texto para dispositivos menores */
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
