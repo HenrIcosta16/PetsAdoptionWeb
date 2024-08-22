@@ -7,8 +7,8 @@ import { useState } from 'react';
 import AdotarTable from './AdotarTable';
 
 const Main = () => {
-  const [animaisData] = useState(animais); // Dados para ServicoCard
-  const [animaisDisponiveis] = useState(listarAnimal); // Dados para AdotarTable
+  const [animaisData] = useState(animais); // Dados ServicoCard
+  const [animaisDisponiveis] = useState(listarAnimal); // Dados AdotarTable
 
   return (
     <main>
