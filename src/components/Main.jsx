@@ -1,4 +1,4 @@
-import itens from '../dataset/Carrosel'; // Certifique-se de que o caminho está correto
+import itens from '../dataset/Carrosel';
 import listarAnimal from '../dataset/Bichos'; // Caminho para listarAnimal
 import animais from '../dataset/Pets'; // Caminho para animais
 import Carrosel from './Carrosel';
